@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AssistantClass</class>
+ <widget class="QMainWindow" name="AssistantClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Assistant</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image:url(:/assistant/Resources/image/astronomy-clouds-dark-evening.jpg)</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="btn_ACM">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>420</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/assistant/Resources/image/planet.png);
+color:rgb(255, 255, 255);
+font: 75 14pt &quot;Consolas&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ACM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_CTF">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>420</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/assistant/Resources/image/planet.png);
+color:rgb(255, 255, 255);
+font: 75 14pt &quot;Consolas&quot;;</string>
+    </property>
+    <property name="text">
+     <string>CTF</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Class">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>430</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/assistant/Resources/image/planet.png);
+color:rgb(255, 255, 255);
+font: 75 14pt &quot;Consolas&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Class</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="current_time">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>50</y>
+      <width>250</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url();
+color:rgb(255, 255, 255);
+font: 20pt &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="assistant.qrc"/>
+ </resources>
+ <connections/>
+</ui>

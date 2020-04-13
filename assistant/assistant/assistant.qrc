@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/assistant">
+        <file>Resources/image/astronomy-clouds-dark-evening.jpg</file>
+        <file>Resources/image/planet.png</file>
+    </qresource>
+</RCC>
